@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ebs_bg.qm</file>
+        <file alias="ca">locale/ebs_ca.qm</file>
+        <file alias="cs">locale/ebs_cs.qm</file>
+        <file alias="da">locale/ebs_da.qm</file>
+        <file alias="de">locale/ebs_de.qm</file>
+        <file alias="en">locale/ebs_en.qm</file>
+        <file alias="en_US">locale/ebs_en_US.qm</file>
+        <file alias="es">locale/ebs_es.qm</file>
+        <file alias="fi">locale/ebs_fi.qm</file>
+        <file alias="fr_FR">locale/ebs_fr_FR.qm</file>
+        <file alias="it">locale/ebs_it.qm</file>
+        <file alias="ja">locale/ebs_ja.qm</file>
+        <file alias="ko_KR">locale/ebs_ko_KR.qm</file>
+        <file alias="nl">locale/ebs_nl.qm</file>
+        <file alias="pl">locale/ebs_pl.qm</file>
+        <file alias="pt">locale/ebs_pt.qm</file>
+        <file alias="pt_BR">locale/ebs_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ebs_ro_RO.qm</file>
+        <file alias="ru">locale/ebs_ru.qm</file>
+        <file alias="sk">locale/ebs_sk.qm</file>
+        <file alias="sv">locale/ebs_sv.qm</file>
+        <file alias="uk">locale/ebs_uk.qm</file>
+        <file alias="zh_CN">locale/ebs_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ebs_zh_TW.qm</file>
+    </qresource>
+</RCC>
