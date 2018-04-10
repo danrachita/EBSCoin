@@ -209,10 +209,10 @@ QT_TRANSLATE_NOOP("ebs-core", ""
 QT_TRANSLATE_NOOP("ebs-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("ebs-core", "(51572 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("ebs-core", "(51582 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("ebs-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("ebs-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("ebs-core", "(must be 51572 for mainnet)"),
+QT_TRANSLATE_NOOP("ebs-core", "(must be 51582 for mainnet)"),
 QT_TRANSLATE_NOOP("ebs-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("ebs-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("ebs-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
