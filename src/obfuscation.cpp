@@ -1733,7 +1733,7 @@ bool CObfuscationPool::MakeCollateralAmounts()
         CCoinControl* coinControlNull = NULL;
         LogPrintf("MakeCollateralAmounts: ONLY_NONDENOMINATED_NOT10000IFMN Error - %s\n", strFail);
         success = pwalletMain->CreateTransaction(vecSend, wtx, reservekeyChange,
-            nFeeRet, strFail, coinControlNull, ONLY_NOT5000IFMN);
+            nFeeRet, strFail, coinControlNull, ONLY_NOT10000IFMN);
         if (!success) {
             LogPrintf("MakeCollateralAmounts: ONLY_NOT10000IFMN Error - %s\n", strFail);
             reservekeyCollateral.ReturnKey();
@@ -2109,7 +2109,7 @@ bool CObfuScationSigner::IsVinAssociatedWithPubkey(CTxIn& vin, CPubKey& pubkey)
     uint256 hash;
     if (GetTransaction(vin.prevout.hash, txVin, hash, true)) {
         BOOST_FOREACH (CTxOut out, txVin.vout) {
-            if (out.nValue == 3000 * COIN) {
+            if (out.nValue == 10000 * COIN) {
                 if (out.scriptPubKey == payee2) return true;
             }
         }
