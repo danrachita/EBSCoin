@@ -28,7 +28,7 @@ EBS Coin Features
 <tr><th colspan=4>PoS Phase</th></tr>
 <tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
 <tr><td>3000-10800</td><td colspan=3>20 EBS</td></tr>
-<tr><td>10800-Infinite</td><td colspan=3>40 EBS</td></tr>
+<tr><td>10800-Infinity</td><td colspan=3>40 EBS</td></tr>
 </table>
 
 ### PoW Rewards Breakdown
