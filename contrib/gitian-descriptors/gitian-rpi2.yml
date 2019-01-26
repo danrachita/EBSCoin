@@ -1,5 +1,5 @@
 ---
-name: "ebs-rpi2-2.1.7"
+name: "ebs-rpi2-2.0"
 enable_cache: true
 suites:
 - "trusty"
