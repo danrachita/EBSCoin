@@ -175,8 +175,21 @@ public:
         assert(hashGenesisBlock == uint256("0x00000327b95e50728cbfbcdf16546951e788b0f34db7e40d6c9fb44ba56cfece"));
         assert(genesis.hashMerkleRoot == uint256("0x17b58404b6861cf4897d4f32c9a38aec1b1378b11eb268da03470112b8f25bec"));
 
-        vSeeds.push_back(CDNSSeedData("45.76.143.123", "45.76.143.123"));
-        vSeeds.push_back(CDNSSeedData("45.77.255.46", "45.77.255.46"));
+	vSeeds.push_back(CDNSSeedData("94.177.245.36", "94.177.245.36"));
+        vSeeds.push_back(CDNSSeedData("86.105.53.115", "86.105.53.115"));
+	vSeeds.push_back(CDNSSeedData("94.177.225.195", "94.177.225.195"));
+	vSeeds.push_back(CDNSSeedData("89.40.118.48", "89.40.118.48"));
+	vSeeds.push_back(CDNSSeedData("89.40.119.159", "89.40.119.159"));
+	vSeeds.push_back(CDNSSeedData("89.36.219.109", "89.36.219.109"));
+	vSeeds.push_back(CDNSSeedData("86.105.48.150", "86.105.48.150"));
+	vSeeds.push_back(CDNSSeedData("86.105.49.119", "86.105.49.119"));
+	vSeeds.push_back(CDNSSeedData("86.105.50.160", "86.105.50.160"));
+	vSeeds.push_back(CDNSSeedData("89.40.124.239", "89.40.124.239"));
+	vSeeds.push_back(CDNSSeedData("89.40.125.9", "89.40.125.9"));
+	vSeeds.push_back(CDNSSeedData("86.105.52.194", "86.105.52.194"));
+	vSeeds.push_back(CDNSSeedData("78.97.54.58", "78.97.54.58"));
+	vSeeds.push_back(CDNSSeedData("45.32.210.221", "45.32.210.221"));
+	vSeeds.push_back(CDNSSeedData("104.248.244.214", "104.248.244.214"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -248,9 +261,6 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "ebs-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "ebs-testnet.seed2.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet EBS addresses start with 'x' or 'y'
