@@ -1,5 +1,5 @@
 ---
-name: "ebs-win-1.0"
+name: "ebs-win-2.0"
 enable_cache: true
 suites:
 - "trusty"
